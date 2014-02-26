@@ -1,4 +1,4 @@
-AdColony-iOS-Advertiser-SDK
+AdColony iOS Advertiser SDK
 ===========================
 Modified: 2014/02/25
 SDK Version: 2.0.1
@@ -7,7 +7,7 @@ Contains:
 ----------------------------------
 * ADCTracker.framework (iOS)
 
-Getting Started with the AdColony Advertiser SDK:
+Getting Started with the AdColony Ad SDK:
 ----------------------------------
 First time users should review the [quick start guide](https://github.com/AdColony/AdColony-iOS-Advertiser-SDK/wiki)
 
