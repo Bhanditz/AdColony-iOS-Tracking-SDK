@@ -2,8 +2,9 @@
 
 AdColony iOS Advertiser SDK
 ===========================
-The AdColony Ad SDK provides advertisers with a mechanism for gauging the effectiveness of AdColony ad campaigns by recording and reporting install events, session data, in-app-purchase transactions, as well as post-install event data.
-Modified: 2014/02/25
+The AdColony Ad SDK provides advertisers with a mechanism for gauging the effectiveness of AdColony ad campaigns by recording and reporting install events, session data, in-app-purchase transactions, as well as post-install event data.  
+
+Modified: 2014/02/25  
 SDK Version: 2.0.1
 
 Contains:
