@@ -17,9 +17,6 @@ The Ad SDK will automatically report install events, session data, and IAP trans
 
 First time users are encouraged to review the [quick start guide](https://github.com/AdColony/AdColony-iOS-Advertiser-SDK/wiki)
 
-Legal Requirements:
-----------------------------------
-
 Contact Us:
 ----------------------------------
 For more information, please visit AdColony.com. For questions or assistance, please email us at support@adcolony.com.
