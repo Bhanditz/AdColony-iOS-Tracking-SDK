@@ -140,14 +140,16 @@ typedef enum {
 /**
  * Reports a social sharing event by the user.
  * @param network An ADCT_SOCIAL_SHARING_NETWORK indicating the associated social network.
- * @param description Only pass this in if you are registering a custom network sharing experience - will be ignored otherwise.
+ * @param description An NSString describing the event. Only pass this in if you are registering a custom network 
+ * sharing experience - will be ignored otherwise.
  */
 + ( void ) socialSharingEventWithNetwork:( ADCT_SOCIAL_SHARING_NETWORK )network description:( NSString * )description;
 
 /**
  * Reports a registration event.
  * @param method An ADCT_NETWORK_REGISTRATION_METHOD indicating the registration method used: Facebook, Twitter, Google, etc.
- * @param description Only pass this in if you are registering a custom registration event - will be ignored otherwise.
+ * @param description An NSString describing the event. Only pass this in if you are registering a custom registration 
+ * event - will be ignored otherwise.
  */
 + ( void ) registrationCompletedWithMethod:( ADCT_NETWORK_REGISTRATION_METHOD )method description:( NSString * )description;
 
@@ -155,7 +157,7 @@ typedef enum {
 
 /**
  * Reports a custom event has occurred. Advertisers are required to keep track of what
- * each ADCT_CUSTOM_EVENT corresponds to on their end.
+ * each ADCT_CUSTOM_EVENT corresponds to.
  * @param event An ADCT_CUSTOM_EVENT denoting the event type.
  * @param description An NSString describing the event.
  */
